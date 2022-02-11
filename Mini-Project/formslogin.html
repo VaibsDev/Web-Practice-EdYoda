@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Login</title>
+    <style>
+        #form{
+            border: 1px solid #ccc;
+            background-color: white; 
+            text-align: center; 
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        #images{
+          width: 50px;
+          height: 50px;
+          padding-top: 16px;  
+          padding-bottom: 16px;
+          padding-left: 32px;
+          padding-right: 32px;
+
+        }
+        #inputFields{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        #inputBox{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-left: 0ch;
+            border-right: 0ch;
+            border-top: 0ch;
+            border-bottom: 1px solid #ccc;
+            width: 80%;
+        }
+        #button{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            color: white;
+            border: none;
+            margin-bottom: 30px;
+
+        }
+    </style>
+</head>
+<body style="background-color: #f2f6ff;">
+        
+        <form id="form">
+        <h3 style="font-size: 32px;padding-top: 56px;">Register</h3>
+        <div style="background-color: #f2f6ff;">
+                <a href="https://google.com"><img id="images" src="./images/google-logo-png-open-2000.png" alt="Google"></a>
+                <a href="https://facebook.com"><img id="images" src="./images/faceboo_logo.png" alt="facebook"></a>
+                <a href="https://github.com"><img id="images" src="./images/github.png" alt="Git"></a>
+                <a href="https://linkedin.com"><img id="images" src="./images/linkdin_logo.png" alt="linkdin"></a>
+
+        </div>
+        <div>
+            <input id="inputBox" style="margin-top: 50px;" type="text" name="username" placeholder="Username"> <br>
+            <input id="inputBox" type="email" name="email" placeholder="Email"><br>
+            <input id="inputBox" type="password" name="password" placeholder="Password"><br>
+            <input id="inputBox" type="password" name="confirm-password" placeholder="Confirm Password"> <br>
+            <input id="button" type="submit" value="Register">
+        </div>
+        </form>
+    
+</body>
+</html>

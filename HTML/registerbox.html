@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parr{
+            font-size: 20px;
+            margin: 0%;
+            margin-bottom: 4px;
+            margin-top: 10px;
+        }
+        .input-item{
+            width: 100%;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body style="background-color: lightskyblue;">
+    <h2 style="margin: 0%; font-size: 40px; margin-bottom: 18px; text-align: center;">Sign up</h2>
+    <form style="width: 500px; background-color: white; padding: 30px; margin-left: auto; margin-right: auto;" method="get">
+        <div>
+            
+            <p id="parr">Full Name :</p>
+            <input class="input-item" type="text" name="username" autofocus>
+            <p id="parr">Age:</p>
+            <input class="input-item" type="number" name="age" autofocus max="40" min="18">
+            <p id="parr">Email :</p>
+            <input class="input-item" type="email " name="email" required>
+            <p id="parr"> Password :</p>
+            <input class="input-item" type="password" name="password">
+            <p id="parr"> Confirm Password :</p>
+            <input class="input-item" type="password" name="confirm-password">
+        </div>
+        <div id="parr" >
+            
+            <p style="margin: 0%; margin-top: 18px ;">Gender :</p>
+            <input  type="radio" name="Male" value="male">
+            Male </input> 
+            <input type="radio" name="Female" value="female">
+            Female </input>
+            <input type="radio" name="Other" value="other">
+            Other </input>
+        </div>
+        <p id="parr">Security Question </p>
+            <select  class="input-item" name="Security-question">
+                <option value="first-pet">Name of your first pet </option>
+                <option value="first-job">What was your first job</option>
+                <option value="fav-dish">Name of your favorite dish </option>
+            </select>
+        </div>
+        <div>
+            
+            <textarea  class="input-item" name="answer"  cols="21" rows="6"></textarea>
+        </div>
+        <div>
+            <input style="margin-bottom: 18px;" type="checkbox" name="terms">I agree to accept the terms and conditions.
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
